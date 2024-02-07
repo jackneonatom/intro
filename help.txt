@@ -1,0 +1,15 @@
+to create a venv
+ python -m venv venv
+
+to activate venv
+    . venv/Scripts/activate
+
+install fastapi and uvicorn
+    pip install fastapi uvicorn
+
+to run your web app
+    uvicorn app:app
+
+
+kill application
+    ctrl+c
